@@ -1,0 +1,41 @@
+.sidebar {
+    width: 80px;
+    padding-top: 20px;
+    align-items: center;
+    background-color: #222222;
+  }
+
+.main_side{
+  height: -webkit-fill-available;
+}
+
+.nav-link{
+  font-size: x-large;
+}
+
+
+.icon-color {
+  color: gray; 
+  transition: color 0.3s ease; 
+}
+
+.icon-color.active {
+  color: #5151ff;
+}
+
+.sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar .nav-link:hover .icon-color {
+  color: #5151ff; 
+}
+
+.sidebar .nav-link.active .icon-color {
+  color: #5151ff;
+}
+
